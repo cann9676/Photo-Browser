@@ -16,5 +16,6 @@ struct Photo: Codable {
         return photographer_url.replacingOccurrences(of: "https://www.pexels.com/", with: "")
         //This line will allow the first part of the url to disapper and the @photographer handle will be shown.
     }
+    var src: PhotoSize
     
 }

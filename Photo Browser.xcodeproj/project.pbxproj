@@ -14,6 +14,9 @@
 		833246892887CB66008FB6E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833246882887CB66008FB6E0 /* HomeViewController.swift */; };
 		8332468B2887CCD2008FB6E0 /* PhotoFeedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8332468A2887CCD2008FB6E0 /* PhotoFeedResult.swift */; };
 		8332468D2887CD72008FB6E0 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8332468C2887CD72008FB6E0 /* Photo.swift */; };
+		8332468F2887D57E008FB6E0 /* PhotoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8332468E2887D57E008FB6E0 /* PhotoSize.swift */; };
+		833246912887D5F5008FB6E0 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833246902887D5F5008FB6E0 /* EndPoint.swift */; };
+		833246932887D78C008FB6E0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833246922887D78C008FB6E0 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		833246882887CB66008FB6E0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8332468A2887CCD2008FB6E0 /* PhotoFeedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFeedResult.swift; sourceTree = "<group>"; };
 		8332468C2887CD72008FB6E0 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		8332468E2887D57E008FB6E0 /* PhotoSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSize.swift; sourceTree = "<group>"; };
+		833246902887D5F5008FB6E0 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		833246922887D78C008FB6E0 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,7 @@
 			children = (
 				8332468A2887CCD2008FB6E0 /* PhotoFeedResult.swift */,
 				8332468C2887CD72008FB6E0 /* Photo.swift */,
+				8332468E2887D57E008FB6E0 /* PhotoSize.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -103,6 +110,8 @@
 		833246832887C9DB008FB6E0 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				833246902887D5F5008FB6E0 /* EndPoint.swift */,
+				833246922887D78C008FB6E0 /* API.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -199,7 +208,10 @@
 				8332466C2887C835008FB6E0 /* AppDelegate.swift in Sources */,
 				8332468B2887CCD2008FB6E0 /* PhotoFeedResult.swift in Sources */,
 				8332466E2887C835008FB6E0 /* SceneDelegate.swift in Sources */,
+				8332468F2887D57E008FB6E0 /* PhotoSize.swift in Sources */,
 				833246892887CB66008FB6E0 /* HomeViewController.swift in Sources */,
+				833246912887D5F5008FB6E0 /* EndPoint.swift in Sources */,
+				833246932887D78C008FB6E0 /* API.swift in Sources */,
 				8332468D2887CD72008FB6E0 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
